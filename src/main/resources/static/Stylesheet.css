@@ -51,13 +51,20 @@ body{
     font-size: 24px;
     padding: 10px;
     text-shadow: #768831 2px 2px;
+}
 
+.linksForText{
+    text-decoration: none;
+    color: #575733;
+    font-size: 26px;
+    font-weight: bold;
 }
 
 .footer {
     position: fixed;
     left: 0;
     bottom: 0;
+    height: 20px;
     width: 100%;
     background-color: #aec95c;
     color: white;
