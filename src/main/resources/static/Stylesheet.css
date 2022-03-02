@@ -1,15 +1,10 @@
-
 .bg {
-    background-image: url("mad.jpg");
-    background-size: 100%;
+    background-image: url("mad2.jpg");
     display: flex;
+    background-size: 100%;
     flex-direction: column;
     background-repeat: no-repeat;
-    position: fixed;
-    top: 0;
-    bottom: 0;
-    right: 0;
-    left: 0;
+
 }
 
 .contentHeader{
@@ -32,18 +27,18 @@
     margin-right: 30px;
     justify-content: space-around;
     white-space: nowrap;
+    height: 300px;
 }
 
 .contentRight{
     font-size: 20px;
     padding: 30px;
     width: 40%;
-    color: #fff;
-    text-shadow: 1px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;
+    color: #747941;
 }
 .links{
     text-decoration: none;
     color: #747941;
-    font-size: 30px;
+    font-size: 20px;
     padding: 10px;
 }
