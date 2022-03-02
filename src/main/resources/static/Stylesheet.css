@@ -14,8 +14,8 @@ body{
 
 .contentHeader{
     display: flex;
-    justify-content: space-between;
     flex-direction: row;
+    max-height: 300px;
 }
 .contentBody{
     display: flex;
@@ -38,16 +38,19 @@ body{
 }
 
 .contentRight{
+    background-color: rgba(255, 255, 255, 0.15);
     font-size: 20px;
     padding: 30px;
-    width: 40%;
-    color: #747941;
+    width: 45%;
+    color: #717941;
+    font-family: Futura, sans-serif;
 }
 .links{
     text-decoration: none;
     color: white;
     font-size: 24px;
     padding: 10px;
+    text-shadow: #768831 2px 2px;
 
 }
 
