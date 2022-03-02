@@ -10,4 +10,9 @@ public class Controller {
     public String portifolio(){
         return "frontPage";
     }
+
+    @GetMapping("/tips")
+    public String tips(){
+        return "tipsOgTricks";
+    }
 }
