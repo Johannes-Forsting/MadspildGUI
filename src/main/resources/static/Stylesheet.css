@@ -3,7 +3,7 @@ body{
 }
 
 .bg {
-    background-image: url("templates/mad4.jpg");
+    background-image: url("mad4.jpg");
     display: flex;
     background-size: 100%;
     flex-direction: column;
