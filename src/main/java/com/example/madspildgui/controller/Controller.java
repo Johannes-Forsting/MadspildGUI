@@ -8,7 +8,7 @@ public class Controller {
 
     @GetMapping("/")
     public String frontPage(){
-        return "frontPage";
+        return "index";
     }
 
     @GetMapping("/tipsOgTricks")
