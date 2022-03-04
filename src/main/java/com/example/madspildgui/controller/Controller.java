@@ -15,7 +15,7 @@ public class Controller {
     public String tips() {
         return "tipsOgTricks";
     }
-    @GetMapping("/links")
+    @GetMapping("/nyttigeLinks")
     public String links(){
         return "nyttigeLinks";
     }
